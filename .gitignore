@@ -1,0 +1,5 @@
+.idea
+*.pyc
+**/__pycache__/
+/my-places/src/api
+/react

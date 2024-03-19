@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chain-texts"
+version = "0.1.0"
+description = ""
+authors = ["nick-roberson <nicholas.roberson.95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-index = "^0.10.14"
+llama-index-core = "^0.10.14.post1"
+llama-index-readers-file = "^0.1.6"
+llama-index-llms-ollama = "^0.1.2"
+llama-index-embeddings-huggingface = "^0.1.4"
+rich = "^13.7.1"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
