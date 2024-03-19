@@ -1,18 +1,13 @@
 # Standard Imports
 import os
-from rich import print
 
 # Third Party Imports
-from llama_index.core import (
-    VectorStoreIndex,
-    SimpleDirectoryReader,
-    StorageContext,
-    load_index_from_storage,
-)
+from llama_index.core import (SimpleDirectoryReader, StorageContext,
+                              VectorStoreIndex, load_index_from_storage)
+from rich import print
 
 # Local Imports
 from backend.constants import PERSIST_DIR, TEXTS_DATA_PATH
-
 
 ############################################
 # Index Singleton                          #

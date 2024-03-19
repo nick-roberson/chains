@@ -20,6 +20,18 @@ This app is run using poetry, a python package manager. To install dependencies 
 % poetry install && poetry update
 ```
 
+## Linting 
+
+Lint Python 
+``` 
+% poetry run black . && poetry run isort .
+```
+
+Lint Typescript
+```
+% cd my-app && npx prettier --write .
+```
+
 ## Running the Chain Texts App
 
 If you have not already, generate the Open API client code for the front end using the following command:

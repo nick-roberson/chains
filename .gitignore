@@ -3,3 +3,5 @@
 **/__pycache__/
 /my-places/src/api
 /react
+
+/backend/knowledge_base/texts.txt
