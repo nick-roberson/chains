@@ -3,5 +3,4 @@
 **/__pycache__/
 /my-places/src/api
 /react
-
-/backend/knowledge_base/texts.txt
+backend/knowledge_base/chain_texts.txt
