@@ -3,8 +3,9 @@
 Overall this is dead simple, throw your prompt into the prompt.txt file and run the app. It will generate a chain message for you
 using whatever extra information that it can find in the knowledge base.
 
-I have left out the extra data that I have trained on because it is not my data to share. If you would like to train your own model
-you can aggregate your own data and train it by running the service and using the /train endpoint.
+I have left out the extra data that I have trained on because it is not my data to share. If you would like to update your own model
+you can aggregate your own data and train it by running the service and using the `/reload` endpoint, providing an 
+optional `test_prompt` parameter to see how the extra data may have affected the models output.
 
 ![alt text](images/sample.png)
 

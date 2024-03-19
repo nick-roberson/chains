@@ -2,8 +2,12 @@
 import os
 
 # Third Party Imports
-from llama_index.core import (SimpleDirectoryReader, StorageContext,
-                              VectorStoreIndex, load_index_from_storage)
+from llama_index.core import (
+    SimpleDirectoryReader,
+    StorageContext,
+    VectorStoreIndex,
+    load_index_from_storage,
+)
 from rich import print
 
 # Local Imports

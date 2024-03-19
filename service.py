@@ -5,15 +5,22 @@ import os
 from typing import Dict
 
 import uvicorn
+
 # Third Party
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from rich import print
 
-from backend.constants import (HOST_NAME, HOST_PORT, OPENAI_API_KEY,
-                               OPENAI_API_KEY_VAR, PERSIST_DIR,
-                               TEXTS_DATA_PATH)
+from backend.constants import (
+    HOST_NAME,
+    HOST_PORT,
+    OPENAI_API_KEY,
+    OPENAI_API_KEY_VAR,
+    PERSIST_DIR,
+    TEXTS_DATA_PATH,
+)
 from backend.llama import submit_query, update_knowledge_base
+
 # Local
 from models import QueryResponse, UpdateResponse
 
